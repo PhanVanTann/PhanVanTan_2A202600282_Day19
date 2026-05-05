@@ -111,11 +111,26 @@ def main():
     comparator = RAGComparator()
     try:
         questions = [
-            "Mối liên hệ giữa Microsoft và Sam Altman là gì?",
-            "Elon Musk và Sam Altman cùng làm gì tại OpenAI?",
-            "Sự nghiệp của Tim Cook sau Steve Jobs như thế nào?",
-            "Sundar Pichai quản lý công ty con nào của Alphabet Inc.?",
-            "Jeff Bezos và Andy Jassy có liên quan gì đến Amazon?"
+            "Mối liên hệ giữa Bill Gates và Steve Jobs thông qua các công ty của họ?",
+            "Sự tham gia của Elon Musk vào OpenAI và Tesla khác nhau như thế nào?",
+            "Ai đã thay thế Larry Page làm CEO của Alphabet?",
+            "Microsoft đã đầu tư bao nhiêu vào OpenAI và điều đó mang lại lợi ích gì?",
+            "Lịch sử thay đổi CEO của Apple từ khi thành lập đến nay?",
+            "Mối liên hệ giữa Satya Nadella và lĩnh vực Cloud Computing?",
+            "Nvidia đã làm gì để chiếm lĩnh thị trường chip AI?",
+            "Vai trò của Jensen Huang tại Nvidia?",
+            "Apple đã suýt phá sản vào năm nào và ai đã cứu họ?",
+            "Google được thành lập bởi ai và vào năm nào?",
+            "Tesla Motors ban đầu được thành lập bởi ai trước khi Elon Musk tham gia?",
+            "Sự kiện Sam Altman bị sa thải và quay lại OpenAI diễn ra như thế nào?",
+            "Alphabet Inc quản lý những mảng kinh doanh nào ngoài Google Search?",
+            "Microsoft Gaming được thành lập khi nào và đã mua lại công ty nào lớn?",
+            "Apple đã mua lại công ty nào của Steve Jobs để đưa ông quay lại?",
+            "Tesla đã đạt mốc vốn hóa 1 nghìn tỷ đô la vào thời điểm nào?",
+            "Sự khác biệt giữa OpenAI Global, LLC và công ty mẹ phi lợi nhuận?",
+            "Tim Cook gia nhập Apple thay thế ai và vào thời điểm nào?",
+            "Nvidia ban đầu tập trung vào mảng nào trước khi bùng nổ AI?",
+            "Mối quan hệ giữa Azure và OpenAI là gì?"
         ]
         for q in questions:
             comparator.query(q)
