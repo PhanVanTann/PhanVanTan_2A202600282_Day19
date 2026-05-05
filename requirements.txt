@@ -1,0 +1,13 @@
+networkx
+matplotlib
+neo4j
+openai
+pandas
+langchain
+langchain-openai
+langchain-chroma
+langchain-huggingface
+sentence-transformers
+python-dotenv
+chromadb
+wikipedia
