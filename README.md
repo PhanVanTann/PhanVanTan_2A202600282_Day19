@@ -62,4 +62,4 @@ pip install -r requirements.txt
 **Kết luận:** GraphRAG vượt trội hơn hẳn trong việc trả lời các câu hỏi phức tạp về cấu trúc tổ chức và mối liên hệ giữa các nhân vật/công ty trong ngành công nghệ.
 
 ---
-*Thực hiện bởi: Phan Văn Tấn - Day 19 GraphRAG Lab*
+

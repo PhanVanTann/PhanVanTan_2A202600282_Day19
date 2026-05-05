@@ -27,6 +27,11 @@ Sử dụng dữ liệu thực tế được thu thập tự động từ **Wiki
 3. **Retrieval:** Thực hiện duyệt đồ thị 2-hop dựa trên thực thể được trích xuất từ câu hỏi.
 4. **Generation:** Sử dụng Context từ đồ thị để LLM tổng hợp câu trả lời.
 
+### 2.4. Trực quan hóa đồ thị
+Dưới đây là hình ảnh đồ thị tri thức được xây dựng thành công trên giao diện Neo4j Browser:
+
+![Knowledge Graph Visualization](Neo4j.png)
+
 ---
 
 ## 3. KẾT QUẢ ĐÁNH GIÁ (BENCHMARK)
@@ -86,6 +91,7 @@ Flat RAG hoạt động tốt với các câu hỏi đơn giản, mang tính tra
 ### 5.3. Tài nguyên hệ thống
 - **Token usage:** Ước tính tổng cộng 30,000 tokens đã được xử lý.
 - **Hardware:** Chạy mượt mà trên phần cứng máy Mac cá nhân mà không cần GPU server đắt tiền.
+
 
 ---
 
